@@ -1,0 +1,78 @@
+.none {
+  display: none !important;
+}
+
+body {
+
+  font-family: sans-serif;
+}
+#content{
+  background: #EDE69B url("../to-do-list.jpg") no-repeat left;
+  background-size: cover;
+  width: 1000px;
+  margin: 0 auto;
+}
+#root{
+  text-align: center;
+}
+.app{
+  width: 1000px;
+  margin: auto;
+}
+p {
+  margin: 0 0 5px;
+}
+
+.article {
+  background: #FFF;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+  width: 300px;
+  margin: 0 0 5px;
+  box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
+  padding: 3px 5px;
+}
+
+.news__author {
+  text-decoration: underline;
+  color: #007DDC;
+}
+.news__count {
+  margin: 10px 0 0 0;
+  display: block;
+}
+
+
+.add {
+  margin: 0 5px 5px 0;
+  width: 210px;
+  border: 1px dashed rgba(0, 89, 181, 0.82);
+  padding: 5px;
+}
+.add__author, .add__text, .add__btn, .add__checkrule {
+  display: block;
+  margin: 0 0 5px 0;
+  padding: 5px;
+  width: 94%;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+}
+.add__checkrule {
+  border: none;
+  font-size: 12px;
+}
+.add__btn {
+  box-sizing: content-box;
+  color: #FFF;
+  text-transform: uppercase;
+  background: #007DDC;
+}
+.add__btn:disabled {
+  background: #CCC;
+  color: #999;
+}
+.todo_input{
+  width: 300px;
+  hiight: 20px;
+}
+.lineThrough{
+  text-decoration: line-through;
+}
