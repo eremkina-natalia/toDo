@@ -7,10 +7,12 @@ body {
   font-family: sans-serif;
 }
 #content{
-  background: #EDE69B url("../to-do-list.jpg") no-repeat left;
+/*  background: #EDE69B url("../to-do-list.jpg") no-repeat left;*/
   background-size: cover;
-  width: 1000px;
+  width: 500px;
   margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 20px;
 }
 #root{
   text-align: center;
@@ -21,13 +23,14 @@ body {
 }
 p {
   margin: 0 0 5px;
+  width: 300px;
 }
 
 .article {
   background: #FFF;
   border: 1px solid rgba(0, 89, 181, 0.82);
   width: 300px;
-  margin: 0 0 5px;
+  margin: 0 auto;
   box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
   padding: 3px 5px;
 }
@@ -75,4 +78,74 @@ p {
 }
 .lineThrough{
   text-decoration: line-through;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font: 14px normal Arial, sans-serif;
+    color: #626771;
+    background-color: #fff;
+}
+
+body{
+    padding: 60px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #eee;
+    color: #7B8585;
+    transition: 0.3s;
+    font-size: 17px;
+    width: 300px;
+    height: 25px;
+    float: left;
+}
+
+ul li:hover{
+    background-color: #beecea;
+}
+
+ul li.focused{
+    color: #fff;
+    background: #41c7c2 url("../check-mark.jpeg") no-repeat right;
+    background-size: 25px 25px;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+p{
+    padding-top: 15px;
+    font-size: 12px;
+}
+.toDoText{
+  padding: 10px 20px;
+}
+.toDoBtn{
+  padding: 10px 20px;
+  background-color: #beecea;
+}
+#toDoInput{
+  margin: 10px;
+}
+.toDoCheck{
+  margin: 14px 0;
+  width: 20px;
+  height: 20px;
+}
+.toDop{
+
+}
+h1{
+  color: red;
 }

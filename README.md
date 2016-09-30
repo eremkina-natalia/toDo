@@ -1,3 +1,2 @@
-# react-ru-tutorial
-Код для раздела [Подключаем react](https://maxfarseer.gitbooks.io/react-course-ru/content/podklyuchaem_react.html)
-# toDo
+# redux-ru-tutorial
+Code for [chapter](https://maxfarseer.gitbooks.io/redux-course-ru/content/es2015,_react_hmr.html)
